@@ -1,0 +1,14 @@
+body {
+  background-color: red;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+svg {
+  display: block;
+  height: 60vh;
+  margin: 0 auto;
+  transform-origin: center center;
+  transition: transform 0.35s ease-in-out;
+}
+
+
