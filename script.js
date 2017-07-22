@@ -27,7 +27,7 @@
       { degree: 225,
         phrase: "Is this what it feels like to have a miscarriage" },
       { degree: 270,
-        phrase: "What did I do to deserve this?" },
+        phrase: "What did I do to deserve this torture?" },
       { degree: 315,
         phrase: "Fuck this shit, I’m getting a hysterectomy" },
     ];
