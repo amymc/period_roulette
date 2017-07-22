@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: #ff0000;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -11,4 +11,19 @@ svg {
   transition: transform 0.35s ease-in-out;
 }
 
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 20px;
+  width: 100%;
+}
+
+a {
+  color: #808080;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #fff;
+}
 
