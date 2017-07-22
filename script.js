@@ -1,5 +1,7 @@
 (function() {
-  const pad = document.getElementsByTagName('svg')[0];
+  const pad = document.getElementsByClassName('pad')[0];
+  const blood = document.getElementsByClassName('blood')[0];
+
   let currentDegree;
 
   window.speechSynthesis.onvoiceschanged = () => pad.addEventListener('click', spinPad);
@@ -11,6 +13,7 @@
     currentDegree = rotationDegree;
     
     pad.style.transform = 'rotate(' + rotationDegree + 'deg)';
+    blood.classList.remove('blood--hidden');
     getPhrase(randomDegree);
   }
 
