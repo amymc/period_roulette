@@ -1,6 +1,5 @@
 (function() {
   const pad = document.getElementsByClassName('pad')[0];
-  const blood = document.getElementsByClassName('blood')[0];
 
   const data = [
      { degree: 45,
@@ -71,9 +70,10 @@
   }
 
   function animateBlood(selectedItem) {
+    const blood = document.getElementsByClassName('blood')[0];
+    const snapEl = Snap(blood);
     blood.classList.remove('blood--hidden');
-    blood.setAttribute('width', selectedItem.svg.width);
-    blood.setAttribute('height', selectedItem.svg.height);
+    snapEl.animate({height: selectedItem.svg.height, width: selectedItem.svg.width}, 1000);
   }
 
   function getPhrase(selectedItem) {
