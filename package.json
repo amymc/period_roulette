@@ -1,0 +1,25 @@
+{
+  "name": "period_roulette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amymc/period_roulette.git"
+  },
+  "author": "amymc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amymc/period_roulette/issues"
+  },
+  "homepage": "https://github.com/amymc/period_roulette#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-watch": "^4.3.1"
+  }
+}
